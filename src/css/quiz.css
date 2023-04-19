@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+  }
+  .start{
+    background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filtern: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #fff;
+  width: 60%;
+  height: 440px;
+  text-align: center;
+  padding: 40px 0px;
+  }
+  .ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  #ansbtn{
+    all: unset;
+    background: none;
+    padding: 10px 40px;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px seashell solid;
+    margin-top: 0;
+    cursor: pointer;
+  }
