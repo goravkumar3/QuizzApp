@@ -22,21 +22,66 @@ function QuizApp(){
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Which of the following is the correct HTML code for adding an image to a web page?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: '<img href="image.jpg">', isCorrect: false },
+				{ answerText: '<image src="image.jpg">', isCorrect: false },
+				{ answerText: '<img src="image.jpg">', isCorrect: true },
+				{ answerText: '<image href="image.jpg">', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'Which HTML element is used for the largest heading?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: '<h6>', isCorrect: false },
+				{ answerText: '<h5>', isCorrect: false },
+				{ answerText: '<h2>', isCorrect: false },
+				{ answerText: '<h1>', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?',
+			answerOptions: [
+				{ answerText: ' alt', isCorrect: true },
+				{ answerText: 'title', isCorrect: false },
+				{ answerText: 'href', isCorrect: false },
+				{ answerText: 'src', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Which HTML element is used to define a bullet list?',
+			answerOptions: [
+				{ answerText: '<list>', isCorrect: false },
+				{ answerText: '<ul>', isCorrect: true },
+				{ answerText: '<li>', isCorrect: false },
+				{ answerText: '<ol>', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Which HTML element is used to define a table?',
+			answerOptions: [
+				{ answerText: '<tr>', isCorrect: false },
+				{ answerText: '<tab>', isCorrect: true },
+				{ answerText: '<table>', isCorrect: false },
+				{ answerText: '<td>', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Which HTML attribute specifies a short hint that describes the input field?',
+			answerOptions: [
+				{ answerText: 'alt', isCorrect: false },
+				{ answerText: 'value', isCorrect: false },
+				{ answerText: 'placeholder', isCorrect: false },
+				{ answerText: 'title', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Which HTML element is used to create a submit button?',
+			answerOptions: [
+				{ answerText: '<input type="submit">', isCorrect: true },
+				{ answerText: ' <button type="submit">', isCorrect: false },
+				{ answerText: '<button type="button">', isCorrect: false },
+				{ answerText: '<input type="button">', isCorrect: false },
 			],
 		},
 	]
