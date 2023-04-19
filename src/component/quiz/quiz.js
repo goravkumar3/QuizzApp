@@ -61,8 +61,8 @@ function QuizApp(){
 			questionText: 'Which HTML element is used to define a table?',
 			answerOptions: [
 				{ answerText: '<tr>', isCorrect: false },
-				{ answerText: '<tab>', isCorrect: true },
-				{ answerText: '<table>', isCorrect: false },
+				{ answerText: '<table>', isCorrect: true },
+				{ answerText: '<tab>', isCorrect: false },
 				{ answerText: '<td>', isCorrect: false },
 			],
 		},
@@ -71,8 +71,8 @@ function QuizApp(){
 			answerOptions: [
 				{ answerText: 'alt', isCorrect: false },
 				{ answerText: 'value', isCorrect: false },
-				{ answerText: 'placeholder', isCorrect: false },
-				{ answerText: 'title', isCorrect: true },
+				{ answerText: 'placeholder', isCorrect: true },
+				{ answerText: 'title', isCorrect: false },
 			],
 		},
 		{
@@ -82,6 +82,15 @@ function QuizApp(){
 				{ answerText: ' <button type="submit">', isCorrect: false },
 				{ answerText: '<button type="button">', isCorrect: false },
 				{ answerText: '<input type="button">', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Which HTML element is used to create a radio button?',
+			answerOptions: [
+				{ answerText: '<input type="radio">', isCorrect: true },
+				{ answerText: ' <select>', isCorrect: false },
+				{ answerText: '<input type="checkbox">', isCorrect: false },
+				{ answerText: '<checkbox>', isCorrect: false },
 			],
 		},
 	]
